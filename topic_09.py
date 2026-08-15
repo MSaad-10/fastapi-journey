@@ -7,9 +7,15 @@
         * http://127.0.0.1:8000/items/123?q=hello&short=true
         * http://127.0.0.1:8000/items/123?q=hello
         * http://127.0.0.1:8000/items/foo?short=1
+        * http://127.0.0.1:8000/items/foo?short=0
         * http://127.0.0.1:8000/items/foo?short=True
+        * http://127.0.0.1:8000/items/foo?short=False
         * http://127.0.0.1:8000/items/foo?short=true
+        * http://127.0.0.1:8000/items/foo?short=false
         * http://127.0.0.1:8000/items/foo?short=on
+        * http://127.0.0.1:8000/items/foo?short=off
+        * http://127.0.0.1:8000/items/foo?short=yes
+        * http://127.0.0.1:8000/items/foo?short=no
 """
 
 
