@@ -12,20 +12,20 @@
 """
 
 
-# from fastapi import FastAPI
-# from pydantic import BaseModel
+from fastapi import FastAPI
+from pydantic import BaseModel
 
-# class Item(BaseModel):
-#     name: str                       # Required
-#     description: str | None = None  # Optional
-#     price: float                    # Required
-#     tax: float | None = None        # Optional
+class Item(BaseModel):
+    name: str                       # Required
+    description: str | None = None  # Optional
+    price: float                    # Required
+    tax: float | None = None        # Optional
 
-# app = FastAPI()
+app = FastAPI()
 
-# @app.post('/items/')
-# async def create_item(item: Item):
-#     return item
+@app.post('/items/')
+async def create_item(item: Item):
+    return item
 
 
 """
