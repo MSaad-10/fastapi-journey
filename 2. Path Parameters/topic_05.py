@@ -1,5 +1,5 @@
 """
-    Predefined Values
+    PREDEFINED VALUES
     - This FastAPI application demonstrates the use of predefined values using Python's Enum class.
     - We can define a set of predefined values for a path parameter.
     - FastAPI will validate the input against these predefined values and return an error if the input does not match any of them.

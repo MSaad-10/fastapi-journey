@@ -1,5 +1,5 @@
 """
-    Path Parameters in FastAPI
+    PATH PARAMETERS IN FASTAPI
     - This FastAPI application demonstrates the use of path parameters in defining endpoints.
     - Path parameters allow you to capture values from the URL path and use them in your endpoint functions.
     - The application defines a single endpoint that responds to GET requests at the URL pattern '/items/{item_id}'.

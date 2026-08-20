@@ -1,5 +1,5 @@
 """
-    Optional Query Parameters
+    OPTIONAL QUERY PARAMETERS
     - Query Paramaters can also be optional as they can have default values.
     - You can declare optional parameters, by setting their default value to None.
     - If the parameter is not provided in the request, it will be set to None.

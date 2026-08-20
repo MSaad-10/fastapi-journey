@@ -1,5 +1,5 @@
 """
-    Path Parameters Containing Paths
+    PATH PARAMETERS CONTAINING PATHS
     - You can use path parameters to capture values from the URL path.
     - This can be done using ':path' in the parameter definition.
 """

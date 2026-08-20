@@ -1,5 +1,5 @@
 """
-    Redefining a Path Operation Function
+    REDEFINING A PATH OPERATION FUNCTION
     - You can redefine a path operation function in FastAPI by using the same path and HTTP method.
     - The return value of first path operation will be used in Swagger UI and OpenAPI documentation.
     - While the function name of second function will be used in Swagger UI.

@@ -1,5 +1,5 @@
 """
-    Query Parameters
+    QUERY PARAMETERS
     - Other function parameters that are not part of the path parameters are called Query Parameters.
     - Query parameters are defined in the function signature and can have default values.
     - The query is the set of key-value pairs that go after the '?' in a URL, separated by '&'.  
