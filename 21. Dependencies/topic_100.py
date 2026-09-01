@@ -9,7 +9,8 @@
 
 class MySuperContextManager:
     def __init__(self):
-        self.db = DBSession()
+        pass
+        # self.db = DBSession()
 
     def __enter__(self):
         return self.db
