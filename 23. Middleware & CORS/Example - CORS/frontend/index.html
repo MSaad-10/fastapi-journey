@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Student Database</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <p class="eyebrow">FastAPI + SQLite</p>
+        <h1>Student Database</h1>
+        <p>Add a student, then find or delete the record using its ID.</p>
+      </header>
+
+      <section class="card">
+        <h2>Add a student</h2>
+        <form id="add-form">
+          <label>
+            Name
+            <input id="name" name="name" maxlength="100" required placeholder="e.g. Ayesha Khan" />
+          </label>
+          <label>
+            Age
+            <input id="age" name="age" type="number" min="1" max="150" required placeholder="e.g. 20" />
+          </label>
+          <button type="submit">Add student</button>
+        </form>
+      </section>
+
+      <section class="card">
+        <h2>Find or delete by ID</h2>
+        <form id="id-form">
+          <label>
+            Student ID
+            <input id="student-id" type="number" min="1" required placeholder="e.g. 1" />
+          </label>
+          <div class="actions">
+            <button type="submit">Display student</button>
+            <button id="delete-button" class="danger" type="button">Delete student</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="card">
+        <h2>All students</h2>
+        <button id="show-all-button" type="button">Show all</button>
+        <div id="students-list" class="students-list" aria-live="polite" hidden></div>
+      </section>
+
+      <section id="result" class="result" aria-live="polite" hidden></section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
